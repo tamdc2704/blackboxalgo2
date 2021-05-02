@@ -1,0 +1,12 @@
+.navbar {
+  z-index: 1;
+  position: absolute;
+  background-color: inherit !important;
+  width: 100%;
+  padding: 1rem 2rem;
+  font-family: 'Fira Mono';
+}
+
+.navbarBrand {
+  display: flex;
+}
