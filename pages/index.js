@@ -56,10 +56,10 @@ export default function Home() {
             </Col>
           </Row>
           <Row>
-            <Item imgSrc="/brain.svg" title="Machine Learning" />
-            <Item imgSrc="/fluctuation.svg" title="High-Frequency Trading" />
+            <Item imgSrc="/brain.png" title="Machine Learning" />
+            <Item imgSrc="/fluctuation.png" title="High-Frequency Trading" />
             <Item imgSrc="/network.png" title="Statistical Arbitrage" />
-            <Item imgSrc="/settings.svg" title="Market Making" />
+            <Item imgSrc="/stock-market.png" title="Market Making" />
           </Row>
         </Container>
       </div>
