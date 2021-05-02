@@ -56,10 +56,10 @@ export default function Home() {
             </Col>
           </Row>
           <Row>
-            <Item imgSrc="/brain.png" title="Machine Learning" />
-            <Item imgSrc="/fluctuation.png" title="High-Frequency Trading" />
-            <Item imgSrc="/network.png" title="Statistical Arbitrage" />
-            <Item imgSrc="/stock-market.png" title="Market Making" />
+            <Item imgSrc="/brain.svg" title="Machine Learning" />
+            <Item imgSrc="/fluctuation.svg" title="High-Frequency Trading" />
+            <Item imgSrc="/analysis.svg" title="Statistical Arbitrage" />
+            <Item imgSrc="/stock-market.svg" title="Market Making" />
           </Row>
         </Container>
       </div>
@@ -81,8 +81,8 @@ export default function Home() {
 
 const Item = ({ imgSrc, title }) => {
   return (
-    <Col lg={3} md={3} xs={6}>
-      <Image src={imgSrc} width={50} height={50} />
+    <Col lg={3} md={3} xs={6} className={styles.iconWrapper}>
+      <img src={imgSrc} className={styles.icon} />
       <div>{title}</div>
     </Col>
   );
